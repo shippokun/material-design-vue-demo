@@ -54,16 +54,12 @@ export default defineComponent({
     const buttonRef = ref<HTMLButtonElement>();
     let mdc: MDCRipple | null = null;
 
-    console.log(buttonRef);
-
     const initializeMDC = () => {
-      console.log(buttonRef);
       if (typeof buttonRef.value !== 'undefined') {
         mdc = MDCRipple.attachTo(buttonRef.value);
       }
     };
     onMounted(() => {
-      console.log('onMounted');
       initializeMDC();
     });
 
@@ -83,6 +79,7 @@ export default defineComponent({
     return {
       handleClick,
       props,
+      buttonRef,
     };
   },
 });
