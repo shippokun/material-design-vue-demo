@@ -3,9 +3,9 @@
     ref="buttonRef"
     :type="type"
     :class="{
-      'mdc-button--raise': prop?.raised,
-      'mdc-button--unelevated': prop?.unelevated,
-      'mdc-button--outlined': prop?.outlined,
+      'mdc-button--raise': raised,
+      'mdc-button--unelevated': unelevated,
+      'mdc-button--outlined': outlined,
     }"
     class="mdc-button"
     @click="handleClick"

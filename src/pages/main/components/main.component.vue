@@ -1,11 +1,5 @@
 <template>
-  <base-button
-    :type="button"
-    :raised="false"
-    :unelevated="false"
-    :outlined="false"
-    @click="clickEvent"
-  />
+  <base-button @click="clickEvent" />
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue';
