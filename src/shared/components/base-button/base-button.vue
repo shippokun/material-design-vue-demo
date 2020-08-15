@@ -10,6 +10,7 @@
     class="mdc-button"
     @click="handleClick"
   >
+    <div class="mdc-button__ripple"></div>
     <slot />
   </button>
 </template>
