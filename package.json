@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@material/button": "^7.0.0",
+    "@material/icon-button": "^7.0.0",
     "@material/top-app-bar": "^7.0.0",
     "core-js": "^3.6.5",
     "vue": "^3.0.0-0"
